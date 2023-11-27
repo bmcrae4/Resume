@@ -372,7 +372,17 @@ font-weight: var(--font-semi-bold);
 
 /*=============== WORK ===============*/ 
 /* To add code or make changes to the section */
+.work__list{
+  row-gap: 1rem;
+}
 
+.work__list{
+  margin: 0;
+}
+
+.work__list{
+  display: grid;
+}
 
 /*=============== CERTIFICATES ===============*/ 
 /* To add code or make changes to the section */
@@ -543,10 +553,10 @@ font-weight: var(--font-semi-bold);
 /* For large devices */
 @media screen and (min-width: 1024px){
   body{
-  background-color: var(--body-color);
+  background-color: var(--container-color);
   margin-block: 3rem;
   }
-  .resume {
+  .resume{
   background-color: var(—-container-color);
   box-shadow: 0 0 48px hsla(40, 48%, 12%, .2);
   margin-inline: auto;
@@ -599,7 +609,8 @@ font-weight: var(--font-semi-bold);
 
   .certificates__container,
   .references__container,
-  .projects__container{
+  .projects__container,
+  .badges__container{
 
     grid-template-columns: repeat(2, 1fr);
   }
