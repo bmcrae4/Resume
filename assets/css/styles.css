@@ -301,7 +301,7 @@ transform: translateY(-4px);
   transition: fill .4s;
 }
 
-.home__star1{
+.home__star-1{
   top: 2.5rem;
   left: -3rem;
   rotate: 15deg;
